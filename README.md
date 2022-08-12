@@ -12,7 +12,10 @@ To create a database user, navigate to the project "Project0" on MongoDB. Then n
 
 Note to not use a password that you would normally use with other apps.
 
-4. To start the server locally, run ```npm run start``` in the server directory.
+4. To start the server locally, run ```npm run start``` in the server directory. Create a .env file in the client and set the following variables:
+
+REACT_APP_BASE_FE_URL=http://localhost:3000
+REACT_APP_BASE_BE_URL=http://localhost:5000
 
 # Description of App
 
