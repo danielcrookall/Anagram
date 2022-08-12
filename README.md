@@ -1,3 +1,19 @@
+# Contributor Setup
+
+1. Run npm install.
+2. Create a file named .env in the server directory and copy the following:
+
+```
+   ATLAS_URI=mongodb+srv://<username>:<password>@cluster0.cpycr.mongodb.net/CPSC455?retryWrites=true&w=majority
+```
+3. Please replace \<username> and \<password> with your username and password from your database user from MongoDB.
+
+To create a database user, navigate to the project "Project0" on MongoDB. Then navigate to the "Database Access" tab, and click "Add new database user".
+
+Note to not use a password that you would normally use with other apps.
+
+4. To start the server locally, run ```npm run start``` in the server directory.
+
 # Description of App
 
 Our team built a social media type web application where users of all age groups can upload images and have their images classified into different categories using Google’s Cloud Vision API. Users can also search for other users, follow them, and view their profiles as well to get a better sense of what their interests are. Lastly, users have a feed that displays photos uploaded by people they follow.
