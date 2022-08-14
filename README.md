@@ -22,4 +22,7 @@ REACT_APP_BASE_BE_URL=http://localhost:5000
 
 A MERN social media web application where users can upload images and have them classified into different categories using Google’s Cloud Vision API. Backend deployed on Heroku, frontend deployed on Netlify.  
 
+![image](https://user-images.githubusercontent.com/83941101/184520388-30080137-94ad-4834-8832-b21bb59ed723.png)
+
+
 
